@@ -10,8 +10,12 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
 
-  outputs =
-    { nixvim, flake-parts, ... }@inputs:
+  outputs = {
+    nixpkgs,
+    nixvim,
+    flake-parts,
+    ... 
+  }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [
         "x86_64-linux"
@@ -21,12 +25,17 @@
       ];
 
       perSystem =
-        { pkgs, system, ... }:
+        {
+	  pkgs,
+          system, 
+          ...
+        }:
         let
           nixvimLib = nixvim.lib.${system};
           nixvim' = nixvim.legacyPackages.${system};
           nixvimModule = {
-            inherit pkgs;
+	    inherit pkgs;
+            # pkgs = nixpkgs.legacyPackages.${system};
             module = import ./config; # import the module directly
             # You can use `extraSpecialArgs` to pass additional arguments to your module files
             extraSpecialArgs = {

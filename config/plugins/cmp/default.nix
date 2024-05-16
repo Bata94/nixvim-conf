@@ -28,8 +28,8 @@
             option.get_bufnrs.__raw = "vim.api.nvim_list_bufs";
             keywordLength = 3;
           }
-          {name = "codeium-nvim";}
-          {name = "codeium";}
+          # {name = "codeium-nvim";}
+          # {name = "codeium";}
           {
             name = "path"; # file system paths
             keywordLength = 3;
