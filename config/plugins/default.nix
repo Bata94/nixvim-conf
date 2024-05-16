@@ -13,6 +13,7 @@
     ./nix
     ./oil
     ./telescope
+    ./tmux-nav
     ./transparent
     ./treesitter
     ./undotree
