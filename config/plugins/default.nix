@@ -9,6 +9,7 @@
     ./lsp
     ./lualine
     ./mini
+    ./markdown-preview
     ./neotree
     ./nix
     ./oil
