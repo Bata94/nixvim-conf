@@ -1,0 +1,5 @@
+{
+  colorschemes.one = {
+    enable = true;
+  };
+}

@@ -1,0 +1,21 @@
+{
+  imports = [
+    ./alpha
+    ./autopairs
+    ./cmp
+    ./comment
+    ./floaterm
+    ./lazygit
+    ./lsp
+    ./lualine
+    ./mini
+    ./neotree
+    ./nix
+    ./oil
+    ./telescope
+    ./transparent
+    ./treesitter
+    ./undotree
+    ./whichkey
+  ];
+}
