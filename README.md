@@ -19,7 +19,7 @@ nix run .
 TODO:
 
 - Configure:
-    - [ ] neotree
+    - [X] neotree
     - [X] todo-comment
     - [X] trouble
     - [ ] alpha (use set hotkeys from telescope, dont set in alpha!)
@@ -33,6 +33,6 @@ TODO:
     - [ ] dadbod
     - [ ] obsidian
 
-- Better colorscheme choosing!
-- Split plugin files up more
-- From Neotree split panes to the right not to the left
+- [ ] Better colorscheme choosing!
+- [ ] Split plugin files up more
+- [ ] From Neotree split panes to the right not to the left

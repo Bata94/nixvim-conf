@@ -1,15 +1,6 @@
 {
   keymaps = [ 
     {
-      key = "<C-n>";
-      action = ":Neotree<CR>";
-      mode = "n";
-      options = {
-        silent = true;
-        desc = "Open Neotree";
-      };
-    }
-    {
       key = "<esc>";
       action = ":noh<CR>";
       mode = [
