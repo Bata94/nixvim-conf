@@ -10,6 +10,7 @@
 
     cmp = {
       enable = true;
+
       settings = {
         autoEnableSources = true;
         experimental = {ghost_text = true;};
@@ -18,7 +19,7 @@
           fetchingTimeout = 200;
           maxViewEntries = 30;
         };
-        snippet = {expand = "luasnip";};
+        snippet.expand = "function(args) require('luasnip').lsp_expand(args.body) end";
         formatting = {fields = ["kind" "abbr" "menu"];};
         sources = [
           {name = "nvim_lsp";}

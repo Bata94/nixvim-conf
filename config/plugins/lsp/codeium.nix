@@ -1,5 +1,5 @@
 {
   plugins.codeium-nvim = {
-    enable = false;
+    enable = true;
   };
 }
