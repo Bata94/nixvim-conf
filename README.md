@@ -20,7 +20,7 @@ TODO:
 
 - Configure:
     - [ ] neotree
-    - [ ] todo-comment
+    - [X] todo-comment
     - [ ] trouble
     - [ ] alpha (use set hotkeys from telescope, dont set in alpha!)
 

@@ -16,6 +16,7 @@
     # ./oil
     ./telescope
     ./tmux-nav
+    ./todo-comment
     ./transparent
     ./treesitter
     ./trouble
