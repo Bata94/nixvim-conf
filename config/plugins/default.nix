@@ -13,7 +13,7 @@
     ./markdown-preview
     ./neotree
     ./nix
-    ./oil
+    # ./oil
     ./telescope
     ./tmux-nav
     ./transparent

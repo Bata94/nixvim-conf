@@ -22,12 +22,16 @@ TODO:
     - [ ] neotree
     - [ ] todo-comment
     - [ ] trouble
+    - [ ] alpha (use set hotkeys from telescope, dont set in alpha!)
 
 - Fix:
-    - [ ] harpoon
-    - [ ] Codeium
+    - [ ] harpoon (completly rips telescope if enabled, maybe diff package??)
+    - [ ] Codeium (allowUnfree pkgs)
 
 - Look into:
     - [ ] oil
     - [ ] dadbod
     - [ ] obsidian
+
+- Better colorscheme choosing!
+- Split plugin files up more
