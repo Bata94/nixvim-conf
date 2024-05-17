@@ -30,3 +30,4 @@ TODO:
 - Look into:
     - [ ] oil
     - [ ] dadbod
+    - [ ] obsidian

@@ -19,6 +19,7 @@
     ./transparent
     ./treesitter
     ./trouble
+    ./ufo
     ./undotree
     ./whichkey
   ];
