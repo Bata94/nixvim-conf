@@ -27,6 +27,10 @@
         keymaps = {
           silent = true;
           lspBuf = {
+            ca = {
+              action = "code_action";
+              desc = "CodeAction";
+            };
             gd = {
               action = "definition";
               desc = "Goto Definition";
