@@ -1,5 +1,5 @@
 {
-  keymaps =[ 
+  keymaps = [ 
     {
       key = "<C-n>";
       action = ":Neotree<CR>";
