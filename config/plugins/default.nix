@@ -18,6 +18,7 @@
     ./tmux-nav
     ./transparent
     ./treesitter
+    ./trouble
     ./undotree
     ./whichkey
   ];

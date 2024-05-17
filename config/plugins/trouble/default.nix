@@ -1,0 +1,5 @@
+{
+  plugins.touble = {
+    enable = true;
+  };
+}

@@ -21,6 +21,7 @@ TODO:
 - Configure:
     - [ ] neotree
     - [ ] todo-comment
+    - [ ] trouble
 
 - Fix:
     - [ ] harpoon
