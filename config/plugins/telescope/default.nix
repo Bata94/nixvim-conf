@@ -29,5 +29,14 @@
           desc = "Telescope RecentFiles";
         };
       }
+      {
+        key = "<leader>fg";
+        action = ":Telescope live_grep<CR>";
+        mode = "n";
+        options = {
+          silent = true;
+          desc = "Telescope LiveGrep";
+        };
+      }
     ];
 }

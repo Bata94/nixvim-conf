@@ -15,3 +15,17 @@ To test your configuration simply run the following command
 ```
 nix run .
 ```
+
+TODO:
+
+- Configure:
+    - [ ] neotree
+    - [ ] todo-comment
+
+- Fix:
+    - [ ] harpoon
+    - [ ] Codeium
+
+- Look into:
+    - [ ] oil
+    - [ ] dadbod
