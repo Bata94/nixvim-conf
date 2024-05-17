@@ -35,3 +35,4 @@ TODO:
 
 - Better colorscheme choosing!
 - Split plugin files up more
+- From Neotree split panes to the right not to the left
