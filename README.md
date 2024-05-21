@@ -26,7 +26,7 @@ TODO:
 
 - Fix:
     - [ ] harpoon (completly rips telescope if enabled, maybe diff package??)
-    - [ ] Codeium (allowUnfree pkgs)
+    - [X] Codeium (allowUnfree pkgs)
 
 - Look into:
     - [ ] oil
