@@ -1,5 +1,8 @@
 {
   imports = [
-    ./rosepine.nix
+    ./base16.nix
+    # ./rosepine.nix
+    # ./nord.nix
+    # ./gruvbox.nix
   ];
 }
