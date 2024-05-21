@@ -35,4 +35,4 @@ TODO:
 
 - [ ] Better colorscheme choosing! (Overlay with nix-colors/base16 env)
 - [ ] Split plugin files up more
-- [ ] From Neotree split panes to the right not to the left
+- [X] From Neotree split panes to the right not to the left

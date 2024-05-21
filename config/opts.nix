@@ -22,6 +22,7 @@
     cursorcolumn = true;
     signcolumn = "yes";
     colorcolumn = "100";
+    splitright = true;
 
     scrolloff = 8;
     backspace = "indent,eol,start";
