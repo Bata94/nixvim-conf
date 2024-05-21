@@ -5,6 +5,6 @@
     ./lspkind.nix
     ./lspsaga.nix
 
-    # ./codeium.nix
+    ./codeium.nix
   ];
 }
