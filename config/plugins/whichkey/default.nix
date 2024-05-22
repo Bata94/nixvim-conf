@@ -6,4 +6,19 @@
     #   "f" = "+Telescope";
     # };
   };
+
+  keymaps = [
+    {
+      key = "?";
+      action = ":WhichKey<CR>";
+      mode = [
+        "n"
+        "v"
+      ];
+      options = {
+        silent = true;
+        desc = "Open WhichKey";
+      };
+    }
+  ];
 }

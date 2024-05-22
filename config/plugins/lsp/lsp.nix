@@ -13,17 +13,21 @@
 
       gopls.enable = true;
       # golangci-lint-ls.enable = true;
+      templ.enable = true;
 
       pyright.enable = true;
       # pylsp.enable = true;
 
       eslint.enable = true;
-      tsserver.enable = false;
+      tsserver.enable = true;
+      tailwindcss.enable = true;
+      astro.enable = true;
       html.enable = true;
       htmx.enable = true;
 
       marksman.enable = true;
       yamlls.enable = true;
+      jsonls.enable = true;
     };
     keymaps = {
       silent = true;
