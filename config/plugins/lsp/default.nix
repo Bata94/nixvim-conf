@@ -4,7 +4,7 @@
     ./lsp-fmt.nix
     ./lspkind.nix
     ./lspsaga.nix
-    ./lsplines.nix
+    # ./lsplines.nix
 
     ./codeium.nix
   ];
