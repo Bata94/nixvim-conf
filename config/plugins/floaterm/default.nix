@@ -15,4 +15,25 @@
       prev = "<C-h>";
     };
   };
+
+  keymaps = [
+    {
+      key = "<leader>ld";
+      action = ":FloatermNew --autoclose=1 --width=0.91 --height=0.94 --title=Lazydocker lazydocker<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Open Lazydocker";
+      };
+    }
+    {
+      key = "<leader>lg";
+      action = ":FloatermNew --autoclose=1 --width=0.91 --height=0.94 --title=Lazygit lazygit<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Open Lazygit";
+      };
+    }
+  ];
 }
