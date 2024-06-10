@@ -5,7 +5,7 @@
     ./cmp
     ./comment
     ./floaterm
-    ./harpoon
+    # ./harpoon
     # ./lazygit
     ./lsp
     ./lualine

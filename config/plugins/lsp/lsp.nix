@@ -2,7 +2,7 @@
   plugins.lsp = {
     enable = true;
     servers = {
-      nil_ls.enable = true;
+      nil-ls.enable = true;
 
       lua-ls.enable = true;
 
@@ -26,8 +26,8 @@
       htmx.enable = true;
 
       marksman.enable = true;
-      yamlls.enable = true;
       jsonls.enable = true;
+      # yamlls.enable = true;
     };
     keymaps = {
       silent = true;
