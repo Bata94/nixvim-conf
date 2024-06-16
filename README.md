@@ -32,6 +32,8 @@ TODO:
     - [ ] oil
     - [ ] dadbod
     - [ ] obsidian
+    - [ ] treesitter-refactor/refactoring
+    - [ ] supermaven (Copilot like)
 
 - [ ] Better colorscheme choosing! (Overlay with nix-colors/base16 env)
 - [ ] Split plugin files up more

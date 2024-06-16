@@ -4,7 +4,16 @@
       enable = true;
 
       indent = true;
+      nixGrammars = true;
       nixvimInjections = true;
+
+      languageRegister = {
+        dot = [
+          ".env"
+          ".env.dev"
+          ".env.prod"
+        ];
+      };
     };
 
     treesitter-context = {

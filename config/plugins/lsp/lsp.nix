@@ -2,7 +2,7 @@
   plugins.lsp = {
     enable = true;
     servers = {
-      nil-ls.enable = true;
+      nil_ls.enable = true;
 
       lua-ls.enable = true;
 
@@ -15,15 +15,34 @@
       # golangci-lint-ls.enable = true;
       templ.enable = true;
 
-      pyright.enable = true;
+      ruff.enable = true;
+      # pyright.enable = true;
       # pylsp.enable = true;
 
       eslint.enable = true;
       tsserver.enable = true;
-      tailwindcss.enable = true;
+      tailwindcss = {
+        enable = true;
+        filetypes = [
+          "hmtl"
+          "templ"
+        ];
+      };
       astro.enable = true;
-      html.enable = true;
-      htmx.enable = true;
+      html = {
+        enable = true;
+        filetypes = [
+          "hmtl"
+          "templ"
+        ];
+      };
+      htmx = {
+        enable = true;
+        filetypes = [
+          "hmtl"
+          "templ"
+        ];
+      };
 
       marksman.enable = true;
       jsonls.enable = true;

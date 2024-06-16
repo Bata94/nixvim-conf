@@ -52,4 +52,10 @@
       "noselect"
     ];
   };
+
+  filetype = {
+    extension = {
+      templ = "templ";
+    };
+  };
 }
