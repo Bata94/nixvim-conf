@@ -2,10 +2,10 @@
   plugins.lsp = {
     enable = true;
     servers = {
+      ansiblels.enable = true;
+      bashls.enable = true;
       nil_ls.enable = true;
-
       lua-ls.enable = true;
-
       nixd.enable = true;
 
       dockerls.enable = true;
@@ -14,6 +14,9 @@
       gopls.enable = true;
       # golangci-lint-ls.enable = true;
       templ.enable = true;
+
+      # TODO: Create a config to connect to SQL Servers
+      sqls.enable = true;
 
       ruff.enable = true;
       # pyright.enable = true;
@@ -28,6 +31,7 @@
           "templ"
         ];
       };
+      cssls.enable = true;
       astro.enable = true;
       html = {
         enable = true;
