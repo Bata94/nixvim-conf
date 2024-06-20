@@ -6,6 +6,8 @@
     number = true;
 
     hidden = true;
+    title = true;
+    encoding = "utf-8";
     fileencoding = "utf-8";
 
     tabstop = 2;
@@ -22,9 +24,8 @@
     cursorcolumn = true;
     signcolumn = "yes";
     colorcolumn = "100";
-    splitright = true;
 
-    scrolloff = 8;
+    scrolloff = 10;
     backspace = "indent,eol,start";
 
     mouse = "a";
@@ -39,12 +40,20 @@
     undofile = true;
     swapfile = false;
     backup = false;
-    laststatus = 3;
+    showcmd = true;
+    cmdheight = 0;
+    laststatus = 0;
 
     incsearch = true;
     inccommand = "split";
     ignorecase = true;
     smartcase = true;
+
+    # path:append({ "**" });
+    # wildignore:append({ "*/node_modules/*" });
+    splitbelow = true;
+    splitright = true;
+    splitkeep = "cursor";
 
     completeopt = [
       "menu"

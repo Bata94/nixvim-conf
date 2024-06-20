@@ -34,6 +34,7 @@ TODO:
     - [ ] obsidian
     - [ ] treesitter-refactor/refactoring
     - [ ] supermaven (Copilot like)
+    - [ ] noice as replace for LuaLine
 
 - [ ] Better colorscheme choosing! (Overlay with nix-colors/base16 env)
 - [ ] Split plugin files up more
