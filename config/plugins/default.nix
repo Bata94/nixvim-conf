@@ -15,6 +15,7 @@
     ./neotree
     ./nix
     # ./oil
+    ./rest
     ./telescope
     ./tmux-nav
     ./todo-comment

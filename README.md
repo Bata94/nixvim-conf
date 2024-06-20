@@ -23,6 +23,8 @@ TODO:
     - [X] todo-comment
     - [X] trouble
     - [ ] alpha (use set hotkeys from telescope, dont set in alpha!)
+    - [ ] Update to 0.10.0
+        - [ ] added Inline Hints
 
 - Fix:
     - [ ] harpoon (completly rips telescope if enabled, maybe diff package??)
@@ -35,6 +37,7 @@ TODO:
     - [ ] treesitter-refactor/refactoring
     - [ ] supermaven (Copilot like)
     - [ ] noice as replace for LuaLine
+    - [ ] rest-nvim; Postman like plugin
 
 - [ ] Better colorscheme choosing! (Overlay with nix-colors/base16 env)
 - [ ] Split plugin files up more
