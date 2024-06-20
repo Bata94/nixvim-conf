@@ -3,6 +3,7 @@
     ./alpha
     ./autopairs
     ./cmp
+    ./colorizer
     ./comment
     ./floaterm
     # ./harpoon
