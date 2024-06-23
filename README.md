@@ -27,7 +27,7 @@ TODO:
         - [ ] added Inline Hints
 
 - Fix:
-    - [ ] harpoon (completly rips telescope if enabled, maybe diff package??)
+    - [ ] harpoon (completly rips telescope if enabled, maybe diff package??) or use arrow/grapple
     - [X] Codeium (allowUnfree pkgs)
 
 - Look into:

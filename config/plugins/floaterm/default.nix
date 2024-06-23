@@ -35,5 +35,14 @@
         desc = "Open Lazygit";
       };
     }
+    {
+      key = "<leader>mr";
+      action = ":FloatermNew --autoclose=1 --title=Run make run<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Make Run in FloatTerm";
+      };
+    }
   ];
 }
