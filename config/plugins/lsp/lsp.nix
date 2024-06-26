@@ -15,6 +15,8 @@
       # golangci-lint-ls.enable = true;
       templ.enable = true;
 
+      # dartls.enable = true;
+
       # TODO: Create a config to connect to SQL Servers
       sqls.enable = true;
 

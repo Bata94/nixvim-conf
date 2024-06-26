@@ -6,6 +6,7 @@
     ./lspsaga.nix
     # ./lsplines.nix
 
+    ./flutter.nix
     ./codeium.nix
   ];
 }
