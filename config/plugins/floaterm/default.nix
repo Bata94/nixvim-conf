@@ -44,5 +44,23 @@
         desc = "Make Run in FloatTerm";
       };
     }
+    {
+      key = "<leader>mw";
+      action = ":FloatermNew --autoclose=1 --title=Run make watch<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Make Run in FloatTerm";
+      };
+    }
+    {
+      key = "<leader>mb";
+      action = ":FloatermNew --autoclose=1 --title=Run make build<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Make Run in FloatTerm";
+      };
+    }
   ];
 }
