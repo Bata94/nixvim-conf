@@ -6,12 +6,12 @@
         min_chars = 2;
         nvim_cmp = true;
       };
-      notes_subdir = "~/Nextcloud/Notes";
-      new_notes_location = "notes_subdir";
+      # notes_subdir = "~/Nextcloud/Notes/Obsidian";
+      new_notes_location = "current_dir";
       workspaces = [
         {
-          name = "default";
-          path = "~/Nextcloud/Notes";
+          name = "mrg";
+          path = "~/Nextcloud/Notes/Obsidian/Projects/MRG";
         }
       ];
     };
