@@ -41,8 +41,8 @@
     swapfile = false;
     backup = false;
     showcmd = true;
-    cmdheight = 0;
-    laststatus = 0;
+    # cmdheight = 0;
+    # laststatus = 0;
 
     incsearch = true;
     inccommand = "split";
