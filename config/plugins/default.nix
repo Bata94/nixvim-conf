@@ -15,7 +15,7 @@
     ./neotree
     ./nix
     # ./oil
-    ./obsidian
+    # ./obsidian
     # ./rest
     ./telescope
     ./tmux-nav
