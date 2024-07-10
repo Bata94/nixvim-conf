@@ -27,17 +27,19 @@ TODO:
         - [ ] added Inline Hints
 
 - Fix:
-    - [ ] harpoon (completly rips telescope if enabled, maybe diff package??) or use arrow/grapple
+    - [~] harpoon (completly rips telescope if enabled, maybe diff package??) or use arrow/grapple
+        - [X] Got it done as an external package
     - [X] Codeium (allowUnfree pkgs)
 
 - Look into:
     - [ ] oil
-    - [ ] dadbod
+    - [X] dadbod
     - [ ] obsidian
     - [ ] treesitter-refactor/refactoring
     - [ ] supermaven (Copilot like)
     - [ ] noice as replace for LuaLine
     - [ ] rest-nvim; Postman like plugin
+    - [ ] removing cmdLine, but still be able to see Macro state
 
 - [ ] Better colorscheme choosing! (Overlay with nix-colors/base16 env)
 - [ ] Split plugin files up more
