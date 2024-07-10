@@ -80,6 +80,53 @@
       };
     }
 
+    # Tabs
+    {
+      key = "<leader>tn";
+      action = ":tabnew<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Create new Tab";
+      };
+    }
+    {
+      key = "<leader>tw";
+      action = ":tabclose<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Close current Tab";
+      };
+    }
+    {
+      key = "<leader>to";
+      action = ":tabNext<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Move to next Tab";
+      };
+    }
+    {
+      key = "<leader>ti";
+      action = ":tabprevious<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Move to previous Tab";
+      };
+    }
+    {
+      key = "<leader>t1";
+      action = ":tabfirst<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Move to Tab number 1";
+      };
+    }
+
     # Move Highlighted Lines
     {
       key = "K";

@@ -8,7 +8,6 @@
     ./dadbod
     ./floaterm
     # ./harpoon
-    # ./lazygit
     ./lsp
     ./lualine
     ./mini
