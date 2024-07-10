@@ -7,7 +7,7 @@
     ./comment
     ./dadbod
     ./floaterm
-    # ./harpoon
+    ./harpoon
     ./lsp
     ./lualine
     ./mini
