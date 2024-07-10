@@ -39,6 +39,7 @@
             name = "luasnip"; # snippets
             keywordLength = 3;
           }
+          {name = "vim-dadbod-completion";}
         ];
 
         window = {

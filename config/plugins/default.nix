@@ -5,6 +5,7 @@
     ./cmp
     ./colorizer
     ./comment
+    ./dadbod
     ./floaterm
     # ./harpoon
     # ./lazygit
