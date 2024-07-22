@@ -4,7 +4,7 @@
     servers = {
       ansiblels.enable = true;
       bashls.enable = true;
-      nil_ls.enable = true;
+      nil-ls.enable = true;
       lua-ls.enable = true;
       nixd.enable = true;
 

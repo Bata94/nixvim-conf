@@ -3,7 +3,6 @@
     treesitter = {
       enable = true;
 
-      indent = true;
       nixGrammars = true;
       nixvimInjections = true;
 
@@ -21,6 +20,8 @@
 
       settings = {
         enable = true;
+
+        indent.enable = true;
 
         max_lines = 0;
         min_window_height = 0;
