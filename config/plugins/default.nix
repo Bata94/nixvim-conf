@@ -25,6 +25,7 @@
     ./trouble
     ./ufo
     ./undotree
+    ./vim-just
     ./whichkey
   ];
 }
