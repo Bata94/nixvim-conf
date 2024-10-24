@@ -6,7 +6,14 @@
       bashls.enable = true;
       nil-ls.enable = true;
       lua-ls.enable = true;
-      nixd.enable = true;
+      nixd = {
+        enable = true;
+        extraOptions = {
+          formatting = {
+            command = "alejandra";
+          };
+        };
+      };
 
       dockerls.enable = true;
       docker-compose-language-service.enable = true;
