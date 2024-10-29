@@ -18,8 +18,17 @@
       dockerls.enable = true;
       docker-compose-language-service.enable = true;
 
-      gopls.enable = true;
-      # golangci-lint-ls.enable = true;
+      gopls = {
+        enable = true;
+        settings.gopls = {
+          completeUnimported = true;
+          usePlaceholders = true;
+          analyses = {
+            unusedparams = true;
+          };
+        };
+      };
+      golangci-lint-ls.enable = true;
       templ.enable = true;
 
       # dartls.enable = true;
