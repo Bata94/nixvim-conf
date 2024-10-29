@@ -10,7 +10,7 @@
   keymaps = [
     {
       key = "<leader>xx";
-      action = ":Trouble diagnostics toggle<CR>";
+      action = "<cmd>Trouble diagnostics toggle<CR>";
       mode = "n";
       options = {
         silent = true;
@@ -19,7 +19,7 @@
     }
     {
       key = "<leader>xX";
-      action = ":Trouble diagnostics toggle filter.buf=0<CR>";
+      action = "<cmd>Trouble diagnostics toggle filter.buf=0<CR>";
       mode = "n";
       options = {
         silent = true;
