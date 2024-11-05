@@ -28,7 +28,7 @@
           };
         };
       };
-      golangci-lint-ls.enable = true;
+      # golangci-lint-ls.enable = true;
       templ.enable = true;
 
       # dartls.enable = true;
