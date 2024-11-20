@@ -3,7 +3,11 @@
     enable = true;
 
     settings = {
-      height = 16;
+      auto_close = true;
+      focus = true;
+      multiline = true;
+      open_no_results = false;
+      # height = 16;
     };
   };
 

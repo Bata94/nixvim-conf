@@ -4,8 +4,8 @@
     servers = {
       ansiblels.enable = true;
       bashls.enable = true;
-      nil-ls.enable = true;
-      lua-ls.enable = true;
+      nil_ls.enable = true;
+      lua_ls.enable = true;
       nixd = {
         enable = true;
         extraOptions = {
@@ -16,7 +16,7 @@
       };
 
       dockerls.enable = true;
-      docker-compose-language-service.enable = true;
+      docker_compose_language_service.enable = true;
 
       gopls = {
         enable = true;
@@ -41,7 +41,7 @@
       # pylsp.enable = true;
 
       eslint.enable = true;
-      tsserver.enable = true;
+      ts_ls.enable = true;
       tailwindcss = {
         enable = true;
         filetypes = [

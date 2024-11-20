@@ -26,4 +26,6 @@
     ./vim-just
     ./whichkey
   ];
+
+  plugins.web-devicons.enable = true;
 }
