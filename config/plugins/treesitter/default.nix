@@ -34,5 +34,25 @@
         on_attach = null;
       };
     };
+
+    treesitter-refactor = {
+      enable = true;
+
+      highlightCurrentScope = {
+        enable = false;
+      };
+
+      highlightDefinitions = {
+        enable = true;
+        clearOnCursorMove = true;
+      };
+
+      smartRename = {
+        enable = true;
+        keymaps = {
+          smartRename = "grr";
+        };
+      };
+    };
   };
 }
