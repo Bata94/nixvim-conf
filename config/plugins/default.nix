@@ -14,7 +14,7 @@
     ./markdown-preview
     ./neotree
     ./nix
-    # ./oil
+    ./oil
     # ./obsidian
     # ./rest
     ./telescope
