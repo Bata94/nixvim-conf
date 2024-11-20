@@ -15,6 +15,7 @@
     ./neotree
     ./nix
     ./oil
+    ./refactoring
     ./telescope
     ./tmux-nav
     ./todo-comment

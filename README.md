@@ -34,7 +34,7 @@ TODO:
 - Look into:
     - [X] oil
     - [X] dadbod
-    - [ ] treesitter-refactor/refactoring
+    - [X] treesitter-refactor/refactoring
     - [ ] noice as replace for LuaLine
     - [ ] removing cmdLine, but still be able to see Macro state
 
