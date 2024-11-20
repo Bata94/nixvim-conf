@@ -23,7 +23,7 @@ TODO:
     - [X] todo-comment
     - [X] trouble
     - [ ] alpha (use set hotkeys from telescope, dont set in alpha!)
-    - [ ] Update to 0.10.0
+    - [X] Update to 0.10.0
         - [ ] added Inline Hints
 
 - Fix:
@@ -32,13 +32,10 @@ TODO:
     - [X] Codeium (allowUnfree pkgs)
 
 - Look into:
-    - [ ] oil
+    - [X] oil
     - [X] dadbod
-    - [ ] obsidian
     - [ ] treesitter-refactor/refactoring
-    - [ ] supermaven (Copilot like)
     - [ ] noice as replace for LuaLine
-    - [ ] rest-nvim; Postman like plugin
     - [ ] removing cmdLine, but still be able to see Macro state
 
 - [ ] Better colorscheme choosing! (Overlay with nix-colors/base16 env)
