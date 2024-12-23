@@ -69,6 +69,14 @@
       marksman.enable = true;
       jsonls.enable = true;
       # yamlls.enable = true;
+
+      rust_analyzer = {
+        enable = true;
+        autostart = true;
+        installRustfmt = true;
+        installCargo = true;
+        installRustc = true;
+      };
     };
     keymaps = {
       silent = true;
