@@ -77,6 +77,8 @@
         installCargo = true;
         installRustc = true;
       };
+
+      zls.enable = true;
     };
     keymaps = {
       silent = true;
