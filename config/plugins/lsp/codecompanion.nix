@@ -12,7 +12,7 @@
                   },
                   schema = {
                       model = {
-                          default = 'deepseek-r1:8b',
+                          default = 'deepseek-coder:6.7b',
                           -- default = 'qwen2.5-coder:latest',
                           -- default = "llama3.1:8b-instruct-q8_0",
                       },
