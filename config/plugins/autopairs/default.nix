@@ -4,16 +4,17 @@
       nvim-autopairs.enable = true;
       autoclose = {
         enable = false;
+        settings = {
+          options = {
+            auto_indent = true;
+            disable_when_touch = true;
+          };
 
-        options = {
-          autoIndent = true;
-          disableWhenTouch = true;
-        };
-
-        keys = {
-          "(" = { escape = false; close = true; pair = "()"; };
-          "[" = { escape = false; close = true; pair = "[]"; };
-          "{" = { escape = false; close = true; pair = "{}"; };
+          keys = {
+            "(" = { escape = false; close = true; pair = "()"; };
+            "[" = { escape = false; close = true; pair = "[]"; };
+            "{" = { escape = false; close = true; pair = "{}"; };
+          };
         };
       };
     };

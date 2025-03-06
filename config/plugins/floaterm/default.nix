@@ -1,18 +1,17 @@
 {
   plugins.floaterm = {
     enable = true;
-    autoclose = 0;
-    # title = "";
+    settings = {
+      autoclose = 0;
 
-    width = 0.9;
-    height = 0.9;
+      width = 0.9;
+      height = 0.9;
 
-    keymaps = {
-      toggle = "<C-b>";
-      new = "<C-t>";
-      kill = "<C-w>";
-      next = "<C-l>";
-      prev = "<C-h>";
+      keymap_toggle = "<C-b>";
+      keymap_new = "<C-t>";
+      keymap_kill = "<C-w>";
+      keymap_next = "<C-l>";
+      keymap_prev = "<C-h>";
     };
   };
 
