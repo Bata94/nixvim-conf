@@ -1,6 +1,6 @@
 {
   imports = [
-    ./alpha
+    # ./alpha
     ./autopairs
     ./cmp
     ./colorizer
@@ -12,7 +12,7 @@
     ./lualine
     ./mini
     ./markdown-preview
-    ./neotree
+    # ./neotree
     ./nix
     ./oil
     ./refactoring
