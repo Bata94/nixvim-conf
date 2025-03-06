@@ -34,7 +34,7 @@
         nixvim' = nixvim.legacyPackages.${system};
         nixvimModule = {
           # inherit pkgs;
-            pkgs = import nixpkgs { system = "x86_64-linux"; config.allowUnfree = true; };
+            pkgs = import nixpkgs { system = system; config.allowUnfree = true; };
             module = import ./config; # import the module directly
             # You can use `extraSpecialArgs` to pass additional arguments to your module files
             extraSpecialArgs = {
