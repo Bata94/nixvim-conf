@@ -3,6 +3,7 @@
     enable = true;
     symbolMap = {
       Codeium = "";
+      CodeCompanion = "cc";
     };
     extraOptions = {
       maxwidth = 50;

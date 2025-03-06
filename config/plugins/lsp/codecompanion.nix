@@ -8,16 +8,11 @@
             function()
               return require('codecompanion.adapters').extend('ollama', {
                   env = {
-                      url = "http://127.0.0.1:11434",
+                      url = "http://localhost:11434",
                   },
                   schema = {
                       model = {
-                          default = 'deepseek-coder:6.7b',
-                          -- default = 'qwen2.5-coder:latest',
-                          -- default = "llama3.1:8b-instruct-q8_0",
-                      },
-                      num_ctx = {
-                          default = 32768,
+                          default = 'qwen2.5-coder:7b',
                       },
                   },
               })
@@ -26,10 +21,7 @@
         };
       };
       opts = {
-        log_level = "TRACE";
-        send_code = true;
-        use_default_actions = true;
-        use_default_prompts = true;
+        log_level = "DEBUG";
       };
       display = {
         action_palette = {

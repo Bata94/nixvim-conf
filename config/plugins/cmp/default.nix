@@ -30,8 +30,8 @@
             keywordLength = 3;
           }
           {name = "codecompanion";}
-          {name = "codeium-nvim";}
-          {name = "codeium";}
+          # {name = "codeium-nvim";}
+          # {name = "codeium";}
           {
             name = "path"; # file system paths
             keywordLength = 3;
