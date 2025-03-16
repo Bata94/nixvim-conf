@@ -12,7 +12,7 @@
     ./lualine
     ./mini
     ./markdown-preview
-    # ./neotree
+    ./neotree
     ./nix
     ./oil
     ./refactoring
