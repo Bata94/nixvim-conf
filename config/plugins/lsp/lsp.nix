@@ -38,7 +38,7 @@
 
       ruff.enable = true;
       # pyright.enable = true;
-      # pylsp.enable = true;
+      pylsp.enable = true;
 
       eslint.enable = true;
       ts_ls.enable = true;
