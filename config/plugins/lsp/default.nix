@@ -7,7 +7,7 @@
     # ./lsplines.nix
 
     ./flutter.nix
-    # ./codeium.nix
-    ./codecompanion.nix
+    ./codeium.nix
+    # ./codecompanion.nix
   ];
 }
