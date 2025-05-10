@@ -23,7 +23,7 @@
     cursorline = true;
     cursorcolumn = true;
     signcolumn = "yes";
-    colorcolumn = "100";
+    colorcolumn = "0";
 
     scrolloff = 10;
     backspace = "indent,eol,start";
