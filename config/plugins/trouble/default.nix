@@ -30,5 +30,24 @@
         desc = "Trouble Buffer Toggle";
       };
     }
+
+    {
+      key = "<leader>xt";
+      action = "<cmd>Trouble todo toggle<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Trouble Todo Toggle";
+      };
+    }
+    {
+      key = "<leader>xT";
+      action = "<cmd>Trouble todo toggle filter.buf=0<CR>";
+      mode = "n";
+      options = {
+        silent = true;
+        desc = "Trouble Todo Buffer Toggle";
+      };
+    }
   ];
 }
