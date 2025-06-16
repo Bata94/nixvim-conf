@@ -8,7 +8,7 @@
   
   keymaps = [
     {
-      key = "<leader>db";
+      key = "<leader>dadbod";
       action = "<cmd>tabnew<CR><cmd>DBUI<CR>";
       mode = "n";
       options = {

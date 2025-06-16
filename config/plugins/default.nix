@@ -5,6 +5,7 @@
     ./cmp
     ./colorizer
     ./comment
+    ./conform
     ./dadbod
     ./floaterm
     ./harpoon

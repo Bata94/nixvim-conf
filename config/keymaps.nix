@@ -1,5 +1,5 @@
 {
-  keymaps = [ 
+  keymaps = [
     {
       key = "<esc>";
       action = ":noh<CR>";
@@ -234,16 +234,7 @@
 
     # Delete to void
     {
-      key = "<leader>d";
-      action = "\"_d";
-      mode = "n";
-      options = {
-        silent = true;
-        desc = "Delete to void";
-      };
-    }
-    {
-      key = "<leader>d";
+      key = "<leader>x";
       action = "\"_d";
       mode = "v";
       options = {

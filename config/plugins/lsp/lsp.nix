@@ -125,11 +125,11 @@
           action = "open_float";
           desc = "Line Diagnostics";
         };
-        "[d" = {
+        "gn" = {
           action = "goto_next";
           desc = "Next Diagnostic";
         };
-        "]d" = {
+        "gp" = {
           action = "goto_prev";
           desc = "Previous Diagnostic";
         };
