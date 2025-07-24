@@ -1,21 +1,33 @@
 {
-    # Either or
-    plugins = {
-      nvim-autopairs.enable = true;
-      autoclose = {
-        enable = false;
-        settings = {
-          options = {
-            auto_indent = true;
-            disable_when_touch = true;
-          };
+  # Either or
+  plugins = {
+    nvim-autopairs.enable = true;
+    autoclose = {
+      enable = false;
+      settings = {
+        options = {
+          auto_indent = true;
+          disable_when_touch = true;
+        };
 
-          keys = {
-            "(" = { escape = false; close = true; pair = "()"; };
-            "[" = { escape = false; close = true; pair = "[]"; };
-            "{" = { escape = false; close = true; pair = "{}"; };
+        keys = {
+          "(" = {
+            escape = false;
+            close = true;
+            pair = "()";
+          };
+          "[" = {
+            escape = false;
+            close = true;
+            pair = "[]";
+          };
+          "{" = {
+            escape = false;
+            close = true;
+            pair = "{}";
           };
         };
       };
     };
+  };
 }

@@ -1,8 +1,4 @@
-{
-  lib,
-  ...
-}:
-{
+{lib, ...}: {
   plugins.supermaven = {
     enable = true;
     settings = {
@@ -11,7 +7,7 @@
         clear_suggestions = "<C-]>";
         accept_word = "<C-j>";
       };
-      ignore_filetypes = [ "cpp" ];
+      ignore_filetypes = ["cpp"];
       color = {
         suggestion_color = "#ffffff";
         cterm = 244;
