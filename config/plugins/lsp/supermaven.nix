@@ -1,12 +1,13 @@
 {
   lib,
   ...
-}: {
+}:
+{
   plugins.supermaven = {
     enable = true;
     settings = {
       keymaps = {
-        accept_suggestion = "<C-Tab>";
+        accept_suggestion = "<C-k>";
         clear_suggestions = "<C-]>";
         accept_word = "<C-j>";
       };
