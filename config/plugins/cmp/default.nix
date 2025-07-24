@@ -13,14 +13,22 @@
 
       settings = {
         autoEnableSources = true;
-        experimental = {ghost_text = true;};
+        experimental = {
+          ghost_text = true;
+        };
         performance = {
           debounce = 60;
           fetchingTimeout = 200;
           maxViewEntries = 30;
         };
         snippet.expand = "function(args) require('luasnip').lsp_expand(args.body) end";
-        formatting = {fields = ["kind" "abbr" "menu"];};
+        formatting = {
+          fields = [
+            "kind"
+            "abbr"
+            "menu"
+          ];
+        };
         sources = [
           {name = "nvim_lsp";}
           {name = "emoji";}
@@ -30,8 +38,8 @@
             keywordLength = 3;
           }
           # {name = "codecompanion";}
-          {name = "codeium-nvim";}
-          {name = "codeium";}
+          # {name = "codeium-nvim";}
+          # {name = "codeium";}
           {
             name = "path"; # file system paths
             keywordLength = 3;
@@ -44,13 +52,17 @@
         ];
 
         window = {
-          completion = {border = "solid";};
-          documentation = {border = "solid";};
+          completion = {
+            border = "solid";
+          };
+          documentation = {
+            border = "solid";
+          };
         };
 
         mapping = {
-          "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
-          "<S-Tab>" = "cmp.mapping(cmp.mapping.select_prev_item(), {'i', 's'})";
+          "<C-j>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
+          "<C-k>" = "cmp.mapping(cmp.mapping.select_prev_item(), {'i', 's'})";
           # "<C-j>" = "cmp.mapping.select_next_item()";
           # "<C-k>" = "cmp.mapping.select_prev_item()";
           "<C-e>" = "cmp.mapping.abort()";
