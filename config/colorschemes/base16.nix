@@ -3,5 +3,6 @@
     enable = true;
     colorscheme = "rose-pine";
     # colorscheme = "tokyo-night-dark";
+    setUpBar = true;
   };
 }
