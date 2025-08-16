@@ -1,7 +1,49 @@
+{ pkgs, ... }:
+# let
+# treesitter-templ-grammar = pkgs.tree-sitter.buildGrammar {
+#   language = "templ";
+#   version = "latest";
+#   src = pkgs.fetchFromGitHub {
+#     owner = "vrischmann";
+#     repo = "tree-sitter-templ";
+#     rev = "";
+#     hash = "";
+#   };
+#   meta.homepage = "https://github.com/vrischmann/tree-sitter-templ";
+# };
+
+# or you can yoink any grammars in tree-sitter.grammars.${grammar-name}
+# treesitter-templ-grammar = pkgs.vimPlugins.nvim-treesitter-parsers.templ;
+# in
 {
+  autoCmd = [
+    {
+      event = [
+        "BufRead"
+        "BufNewFile"
+      ];
+      pattern = "*.templ";
+      command = "set filetype=templ";
+    }
+  ];
+
+  # Option B: Using Neovim's native filetype.add (preferred for extensions)
+  # This integrates better with Neovim's filetype detection system.
+  extraConfigLua = ''
+    vim.filetype.add({
+      extension = {
+        templ = 'templ',
+      },
+    })
+  '';
+
   plugins = {
     treesitter = {
       enable = true;
+
+      # grammarPackages = pkgs.vimPlugins.nvim-treesitter.passthru.allGrammars ++ [
+      #   treesitter-templ-grammar
+      # ];
 
       nixGrammars = true;
       nixvimInjections = true;
@@ -12,6 +54,15 @@
           ".env.dev"
           ".env.prod"
         ];
+        templ = [
+          ".templ"
+        ];
+      };
+      settings = {
+        auto_install = true;
+        ensure_installed = [
+          "templ"
+        ];
       };
     };
 
@@ -20,7 +71,6 @@
 
       settings = {
         enable = true;
-
         indent.enable = true;
 
         max_lines = 0;

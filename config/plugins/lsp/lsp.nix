@@ -49,6 +49,11 @@
           "hmtl"
           "templ"
         ];
+        settings = {
+          includeLanguages = {
+            templ = "html";
+          };
+        };
       };
       cssls.enable = true;
       astro.enable = true;
