@@ -48,11 +48,18 @@
         filetypes = [
           "hmtl"
           "templ"
+          "jsx"
+          "tsx"
         ];
         settings = {
           includeLanguages = {
             templ = "html";
           };
+          classAttributes = [
+            "class"
+            "className"
+            "headerClassName"
+          ];
         };
       };
       cssls.enable = true;
